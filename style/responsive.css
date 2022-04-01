@@ -1,0 +1,29 @@
+@media screen and (max-width: 700px) {
+    header .container { /*menu superior vira coluna em formatos menores*/
+        display: flex;
+        flex-direction: column; 
+        padding-bottom: 2%; 
+    }    
+
+    header nav a{
+        font-size: 10px;
+              
+    }
+    
+
+
+
+
+    .botoes {
+        margin-top: 20px;/*desgruda botões em telas menores*/
+        width: 300px;        
+        /*aumenta largura do botão em telas menores*/
+    }
+}    
+
+
+@media screen and (min-width: 800px){
+    .descrição {
+        width: 50%; /*para o texto da descrição não esticar tanto em telas grandes*/
+    }
+}
